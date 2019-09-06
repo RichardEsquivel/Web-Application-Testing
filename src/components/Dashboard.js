@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ControlButtons = (props) => {
+const Dashboard = (props) => {
 	return (
 		<div>
 			<button onClick={props.ball}>BALLS</button>
@@ -12,4 +12,4 @@ const ControlButtons = (props) => {
 	)
 }
 
-export default ControlButtons;
+export default Dashboard;
