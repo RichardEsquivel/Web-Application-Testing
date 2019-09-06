@@ -6,6 +6,8 @@ const Display = (props) => {
 		<div>
 			<div>Balls: {props.balls}</div>
 			<div>Strikes: {props.strikes}</div>
+			<div>Fouls: {props.fouls}</div>
+			<div>Hits: {props.hits}</div>
 		</div>
 	);
 
